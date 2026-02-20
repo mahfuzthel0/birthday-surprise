@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+#password-page {
+    margin-top: 150px;
+}
+
+input {
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+button {
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+    background: white;
+    color: #ee9ca7;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #ffd1dc;
+}
+
+#main-page {
+    padding: 50px;
+}
+
+.photo {
+    width: 260px;
+    border-radius: 20px;
+    margin-top: 25px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+}
+
+#typewriter {
+    max-width: 600px;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.heart {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    background: pink;
+    transform: rotate(45deg);
+    animation: float 8s linear infinite;
+}
+
+.heart:before,
+.heart:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: pink;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.heart:before {
+    top: -10px;
+    left: 0;
+}
+
+.heart:after {
+    left: -10px;
+    top: 0;
+}
+
+@keyframes float {
+    from { transform: translateY(100vh) rotate(45deg); opacity:1; }
+    to { transform: translateY(-10vh) rotate(45deg); opacity:0; }
+}
