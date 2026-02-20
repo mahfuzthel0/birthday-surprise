@@ -1,4 +1,4 @@
-/* GLOBAL STYLING */
+/* ================== GLOBAL STYLING ================== */
 body {
     margin: 0;
     font-family: 'Georgia', serif;
@@ -8,7 +8,7 @@ body {
     overflow-x: hidden;
 }
 
-/* PASSWORD PAGE */
+/* ================== PASSWORD PAGE ================== */
 #password-page {
     margin-top: 100px;
     padding: 0 20px;
@@ -41,12 +41,12 @@ button:hover {
     background: #ffd1dc;
 }
 
-/* MAIN PAGE */
+/* ================== MAIN PAGE ================== */
 #main-page {
     padding: 30px 20px;
 }
 
-/* TYPEWRITER TEXT */
+/* ================== TYPEWRITER TEXT ================== */
 #typewriter, #typewriter2 {
     max-width: 90%;
     margin: 20px auto;
@@ -56,7 +56,7 @@ button:hover {
     text-align: center;
 }
 
-/* PHOTO STYLING */
+/* ================== PHOTO STYLING ================== */
 .photo {
     width: 80%;
     max-width: 260px;
@@ -65,7 +65,7 @@ button:hover {
     box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
 }
 
-/* THANK YOU BUTTON */
+/* ================== THANK YOU BUTTON ================== */
 #nextBtn {
     margin-top: 30px;
     padding: 12px 30px;
@@ -82,7 +82,7 @@ button:hover {
     background: #ffd1dc;
 }
 
-/* HEARTS ANIMATION */
+/* ================== HEARTS ANIMATION ================== */
 .heart {
     position: fixed;
     width: 15px;
@@ -118,7 +118,7 @@ button:hover {
     to { transform: translateY(-10vh) rotate(45deg); opacity:0; }
 }
 
-/* CINEMATIC H1 / H3 STYLING */
+/* ================== CINEMATIC H1 / H3 ================== */
 h1 {
     font-size: 36px;
     margin-bottom: 10px;
@@ -133,7 +133,7 @@ h3 {
     text-shadow: 1px 1px 8px rgba(0,0,0,0.3);
 }
 
-/* MOBILE MEDIA QUERIES */
+/* ================== MOBILE MEDIA QUERIES ================== */
 @media only screen and max-width: 480px {
     h1 {
         font-size: 28px;
@@ -153,5 +153,8 @@ h3 {
     }
     input {
         width: 90%;
+    }
+    body {
+        padding-bottom: 50px;
     }
 }
